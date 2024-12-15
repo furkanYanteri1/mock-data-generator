@@ -11,13 +11,13 @@ A simple and customizable tool for generating mock data for your projects.
 ## Installation
 Install the package via npm:
 ```bash
-npm install mock-data-generator
+npm install mock-quick
 ```
 
 ## Example Usage
 > In the js file:
 ```
-const { createMockData } = require('mock-data-generator');
+const { createMockData } = require('mock-quick');
 
 const schema = {
   name: { category: 'name', method: 'firstName' },
