@@ -1,5 +1,5 @@
 {
-  "name": "mock-data-generator",
+  "name": "mock-quick",
   "version": "1.0.0",
   "description": "A simple tool for generating mock data with customizable schemas.",
   "main": "src/index.js",
