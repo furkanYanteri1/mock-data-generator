@@ -1,7 +1,11 @@
 {
   "name": "mock-quick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple tool for generating mock data with customizable schemas.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furkanYanteri1/mock-data-generator.git"
+  },
   "main": "src/index.js",
   "type": "module",
   "scripts": {
