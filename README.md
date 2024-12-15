@@ -12,3 +12,28 @@ A simple and customizable tool for generating mock data for your projects.
 Install the package via npm:
 ```bash
 npm install mock-data-generator
+```
+
+## Example Usage
+> In the js file:
+```
+const { createMockData } = require('mock-data-generator');
+
+const schema = {
+  name: { category: 'name', method: 'firstName' },
+  email: { category: 'internet', method: 'email' },
+};
+
+const data = createMockData(schema, 3);
+console.log(data);
+```
+> Output:
+
+```
+[
+  { "name": "John", "email": "john.doe@example.com" },
+  { "name": "Jane", "email": "jane.doe@example.com" },
+  { "name": "Alice", "email": "alice.doe@example.com" }
+]
+
+```
