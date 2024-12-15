@@ -10,7 +10,12 @@
     "build": "echo 'No build step needed'",
     "prepublishOnly": "npm run lint && npm test"
   },
-  "keywords": ["mock-data", "faker", "data-generator", "testing"],
+  "keywords": [
+    "mock-data",
+    "faker",
+    "data-generator",
+    "testing"
+  ],
   "author": "Furkan Yanteri",
   "license": "MIT",
   "dependencies": {
